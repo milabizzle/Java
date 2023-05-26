@@ -2,7 +2,7 @@ package LacoSimples;
 
 import java.util.Scanner;
 
-public class lacoSimples {
+public class ExpLacoSimples {
 
 	public static void main(String[] args) {
 
