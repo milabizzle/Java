@@ -22,22 +22,23 @@ public class If1 {
 		System.out.println("Primeira doação de sangue? ");
 		resposta = ler.nextBoolean();
 
-		if (idade >= 18) {
-			System.out.println(nome + " está apto a doar sangue!");
-			{
-
+		if (idade >= 18 && idade <= 69) {
+			if (idade >= 60 && idade <= 69) {
+				if (resposta == true) {
+					System.out.println(nome + " não está apto para doar sangue! ");
+				} else {
+					System.out.println(nome + " está apto a doar sangue!");
+				}
+			}else {
+				System.out.println(nome + " está apto a doar sangue!");
 			}
 
-		} else if (idade <= 60) {
-		} else if (idade == 69) {
-		} else if (resposta = false) {
-			System.out.println(nome + " está apto para doar sangue!");
 			{
 
 			}
 
 		} else {
-			System.out.println(nome + " não está apto para doar sangue! ");
+			System.out.println(nome + " não está apto a doar sangue!");
 
 		}
 	}
