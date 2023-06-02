@@ -11,9 +11,10 @@ public class Pilha {
 		Stack<String> pilha = new Stack<String>();
 		Scanner leia = new Scanner(System.in);
 
+		Boolean faca = true;
 		String livro = null;
 		int opcao = 0;
-		Boolean faca = true;
+		
 
 		while (faca) {
 			System.out.println("\nEscolha a opção desejada:" + "\n1 - Adicionar livro na pilha"
